@@ -1,6 +1,6 @@
-<template>
+<template lang="pug">
   <div class="hello">
-    <h1>Welcome to Hanu Vue Template</h1>
+    <h1>Welcome to Amy Vue Template</h1>
     <h4>vuex store</h4>
     <h3 v-html="$store.getters.getCount"></h3>
     <div>
@@ -102,22 +102,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
+<style scoped lang="sass">
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
 </style>
